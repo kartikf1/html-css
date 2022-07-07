@@ -6,6 +6,7 @@ body {
   font-family: sans-serif;
   color: #444;
   border-top: 10px solid #1098ad;
+  position: relative;
 }
 
 .container {
@@ -154,4 +155,13 @@ a:active {
   height: auto;
   /* padding: 50px; */
   /* margin: 80px; */
+}
+
+.like-button {
+  font-size: 20px;
+  /* background-color: #ffe70e; */
+  padding: 16px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
 }
