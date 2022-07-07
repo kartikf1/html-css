@@ -110,6 +110,20 @@ h3 {
 h2 {
   font-size: 38px;
   margin-bottom: 30px;
+  /* background-color: rosybrown; */
+  position: relative;
+}
+h2::after {
+  content: "TOP";
+  background-color: #fdcb13;
+  font-size: 16px;
+  display: inline-block;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: #444;
+  position: absolute;
+  top: -15px;
+  right: -25px;
 }
 
 .related-post {
