@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: sans-serif;
@@ -10,7 +11,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -47,18 +48,18 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   /* border: 5px solid #1098ad; */
-  padding: 50px 0;
+  padding: 50px 40px;
   margin-bottom: 30px;
   width: 500px;
-}
-
-.related-post {
-  list-style: none;
 }
 
 ul,
 ol {
   margin-left: 60px;
+}
+.related-post {
+  list-style: none;
+  margin-left: 0;
 }
 h3 {
   margin-bottom: 20px;
@@ -82,6 +83,7 @@ header p {
 h4 {
   text-align: center;
   font-size: 22px;
+  margin-bottom: 40px;
 }
 .article {
   margin-bottom: 60px;
@@ -128,6 +130,7 @@ h2::after {
 
 .related-post {
   list-style: none;
+  /* margin-bottom: 20px; */
 }
 
 .related-post li p {
@@ -203,4 +206,16 @@ nav {
   clear: both;
   content: "";
   display: block;
+}
+
+.article {
+  width: 825px;
+  float: left;
+}
+aside {
+  width: 300px;
+  float: right;
+}
+footer {
+  clear: both;
 }
